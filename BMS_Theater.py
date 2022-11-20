@@ -67,7 +67,7 @@ def run():
     set_reg_value(bms_key,"curTheater",chosen_theater)
     bms_key.Close()
     print(f"{chosen_theater} was set in registry for {bms_version} as current theater.")
-
+    input("Press any key to exit.")
 
 def open_reg_key(root_reg:str, key:str, access:int = winreg.KEY_READ) -> winreg.HKEYType:
     root_key = winreg.ConnectRegistry(None, root_reg)
