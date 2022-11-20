@@ -127,5 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-output/Falcon BMS Theater Changer v1.exe
-output/Falcon BMS Theater Changer v1.zip
+output/*
